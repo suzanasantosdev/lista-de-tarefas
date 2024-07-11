@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para este projeto */
+        .todo-list {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #299b7d;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .todo-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #9dc044;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .todo-item input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-list">
+        <div class="todo-item">
+            <input type="checkbox" id="todo1">
+            <label for="todo1">Estudar HTML</label>
+        </div>
+        <div class="todo-item">
+            <input type="checkbox" id="todo2">
+            <label for="todo2">Praticar CSS</label>
+        </div>
+        <div class="todo-item">
+            <input type="checkbox" id="todo3">
+            <label for="todo3">Aprender JavaScript</label>
+        </div>
+        <div class="todo-item">
+            <input type="checkbox" id="todo4">
+            <label for="todo4"> Aprender PHP</label>
+        </div>
+        <div class="todo-item">
+            <input type="checkbox" id="todo5">
+            <label for="todo5"> Aprender Python</label>
+        </div>
+    </div>
+</body>
+</html>
